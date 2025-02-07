@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+#campo {
+  width: 600px;
+  height: 400px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+#jugador {
+  width: 50px;
+  height: 50px;
+  background-color: #00f;
+  position: absolute;
+  bottom: 10px;
+  left: 275px;
+}
+
+.bala {
+  width: 5px;
+  height: 10px;
+  background-color: #f00;
+  position: absolute;
+  bottom: 60px;
+}
+
+.enemigo {
+  width: 50px;
+  height: 50px;
+  background-color: #f00;
+  position: absolute;
+  top: 0;
+  animation: moverEnemigos 5s linear infinite;
+}
+
+@keyframes moverEnemigos {
+  0% { left: 0; }
+  100% { left: 550px; }
+}
