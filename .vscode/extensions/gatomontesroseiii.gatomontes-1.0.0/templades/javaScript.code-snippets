@@ -1,0 +1,10 @@
+{
+        "fetch conent html url": {
+                "prefix": "fecth-htmlByURL",
+                "body": [
+                        "function loadContent(url, targetElement) {fetch(url).then(response => response.text()).then(data => {targetElement.innerHTML = data;}).catch(error => console.error('Error al cargar el contenido:', error));}"
+                ],
+                "description": "fetch html BY URL"
+        }
+}
+

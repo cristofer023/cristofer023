@@ -1,0 +1,1179 @@
+[2025-02-07 22:23:23] debug Starting tunnel with `code c:\Users\18293\AppData\Local\Programs\Microsoft VS Code\bin\code-tunnel.exe --verbose --cli-data-dir C:\Users\18293\.vscode\cli tunnel service internal-run --log-to-file C:\Users\18293\.vscode\cli\tunnel-service.log`
+[2025-02-07 22:23:23] debug starting as new singleton
+[2025-02-07 22:23:23] trace Found token in keyring
+[2025-02-07 22:23:23] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-07 22:23:24] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-07 22:23:25] trace wsl not detected
+[2025-02-07 22:23:25] debug Starting tunnel to server...
+[2025-02-07 22:23:25] trace Found token in keyring
+[2025-02-07 22:23:26] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-07 22:23:26] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-07 22:23:26] debug [russh::ssh_read] read 39
+[2025-02-07 22:23:26] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-07 22:23:26] debug [russh::client] writing 352 bytes
+[2025-02-07 22:23:26] debug [russh::ssh_read] id 39 39
+[2025-02-07 22:23:27] debug [russh::client::kex] extending []
+[2025-02-07 22:23:27] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-07 22:23:27] debug [russh::client::kex] write = []
+[2025-02-07 22:23:27] debug [russh::client::kex] i0 = 342
+[2025-02-07 22:23:27] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2418d342610, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2418d1ce320, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2418d31b380, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2418d1b9f90, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-07 22:23:27] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-07 22:23:27] trace Found token in keyring
+[2025-02-07 22:23:27] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "fd1c8b86-b153-4cc2-9016-bf9a00e131b7-relay", connection_mode: TunnelRelay, host_id: "fd1c8b86-b153-4cc2-9016-bf9a00e131b7", host_public_keys: [], port_uri_format: Some("https://gs3xpgs6-{port}.use2.devtunnels.ms/"), tunnel_uri: Some("https://gs3xpgs6.use2.devtunnels.ms/"), port_ssh_command_format: Some("ssh gs3xpgs6-{port}@ssh.use2.devtunnels.ms"), tunnel_ssh_command: Some("ssh gs3xpgs6@ssh.use2.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/amusing-horse-wsg97rs"), client_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/amusing-horse-wsg97rs") }
+[2025-02-07 22:23:27] debug Visual Studio Code Server is listening for incoming connections
+[2025-02-07 22:23:27] trace Found token in keyring
+[2025-02-07 22:23:27] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-07 22:24:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:24:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:25:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:26:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:26:28] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:27:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:28:26] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:28:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:29:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:30:26] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:30:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:31:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:32:26] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:32:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:33:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:56:18] debug Starting tunnel with `code C:\Users\18293\AppData\Local\Programs\Microsoft VS Code\bin\code-tunnel.exe --verbose --cli-data-dir C:\Users\18293\.vscode\cli tunnel service internal-run --log-to-file C:\Users\18293\.vscode\cli\tunnel-service.log`
+[2025-02-07 22:56:18] debug starting as new singleton
+[2025-02-07 22:56:18] trace Found token in keyring
+[2025-02-07 22:56:18] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-07 22:56:22] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-07 22:56:27] trace wsl not detected
+[2025-02-07 22:56:27] trace Found token in keyring
+[2025-02-07 22:56:28] debug Starting tunnel to server...
+[2025-02-07 22:56:28] trace Found token in keyring
+[2025-02-07 22:56:30] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-07 22:56:30] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-07 22:56:30] debug [russh::ssh_read] read 39
+[2025-02-07 22:56:30] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-07 22:56:30] debug [russh::client] writing 352 bytes
+[2025-02-07 22:56:30] debug [russh::ssh_read] id 39 39
+[2025-02-07 22:56:30] debug [russh::client::kex] extending []
+[2025-02-07 22:56:30] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-07 22:56:30] debug [russh::client::kex] write = []
+[2025-02-07 22:56:30] debug [russh::client::kex] i0 = 342
+[2025-02-07 22:56:30] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2555613e440, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x25554490e80, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2555448af90, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x255544783c0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-07 22:56:30] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-07 22:56:30] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "83b10baf-6d40-415d-9ea3-fdd2bf6e75f6-relay", connection_mode: TunnelRelay, host_id: "83b10baf-6d40-415d-9ea3-fdd2bf6e75f6", host_public_keys: [], port_uri_format: Some("https://gs3xpgs6-{port}.use2.devtunnels.ms/"), tunnel_uri: Some("https://gs3xpgs6.use2.devtunnels.ms/"), port_ssh_command_format: Some("ssh gs3xpgs6-{port}@ssh.use2.devtunnels.ms"), tunnel_ssh_command: Some("ssh gs3xpgs6@ssh.use2.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/amusing-horse-wsg97rs"), client_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/amusing-horse-wsg97rs") }
+[2025-02-07 22:56:30] trace Found token in keyring
+[2025-02-07 22:56:30] debug Visual Studio Code Server is listening for incoming connections
+[2025-02-07 22:56:30] trace Found token in keyring
+[2025-02-07 22:56:30] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-07 22:57:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:57:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:58:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 22:59:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 22:59:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:00:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:00:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:00:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:01:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:01:32] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:02:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:03:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:03:32] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:04:30] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:05:30] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:05:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:06:30] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:07:30] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:07:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:08:30] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:09:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:09:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:10:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:11:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:11:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:12:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-07 23:13:31] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-07 23:13:31] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:35:31] debug Starting tunnel with `code C:\Users\18293\AppData\Local\Programs\Microsoft VS Code\bin\code-tunnel.exe --verbose --cli-data-dir C:\Users\18293\.vscode\cli tunnel service internal-run --log-to-file C:\Users\18293\.vscode\cli\tunnel-service.log`
+[2025-02-08 15:35:31] debug starting as new singleton
+[2025-02-08 15:35:31] trace Found token in keyring
+[2025-02-08 15:35:31] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 15:35:36] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 15:36:17] trace wsl not detected
+[2025-02-08 15:36:17] trace Found token in keyring
+[2025-02-08 15:36:17] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 15:36:19] debug Starting tunnel to server...
+[2025-02-08 15:36:19] trace Found token in keyring
+[2025-02-08 15:36:27] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 15:36:27] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 15:36:27] debug [russh::ssh_read] read 39
+[2025-02-08 15:36:27] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 15:36:27] debug [russh::client] writing 352 bytes
+[2025-02-08 15:36:27] debug [russh::ssh_read] id 39 39
+[2025-02-08 15:36:27] debug [russh::client::kex] extending []
+[2025-02-08 15:36:27] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 15:36:27] debug [russh::client::kex] write = []
+[2025-02-08 15:36:27] debug [russh::client::kex] i0 = 342
+[2025-02-08 15:36:27] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41dfd0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712c71dc60, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e3eedf0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712c708de0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 15:36:27] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 15:36:27] trace Found token in keyring
+[2025-02-08 15:36:27] debug Connected to tunnel endpoint: TunnelRelayTunnelEndpoint { base: TunnelEndpoint { id: "64eea60e-49d1-4c08-b6a5-5f332fd38653-relay", connection_mode: TunnelRelay, host_id: "64eea60e-49d1-4c08-b6a5-5f332fd38653", host_public_keys: [], port_uri_format: Some("https://gs3xpgs6-{port}.use2.devtunnels.ms/"), tunnel_uri: Some("https://gs3xpgs6.use2.devtunnels.ms/"), port_ssh_command_format: Some("ssh gs3xpgs6-{port}@ssh.use2.devtunnels.ms"), tunnel_ssh_command: Some("ssh gs3xpgs6@ssh.use2.devtunnels.ms"), ssh_gateway_public_key: None }, host_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Host/Connect/amusing-horse-wsg97rs"), client_relay_uri: Some("wss://use2-data.rel.tunnels.api.visualstudio.com/api/v1/Client/Connect/amusing-horse-wsg97rs") }
+[2025-02-08 15:36:27] debug Visual Studio Code Server is listening for incoming connections
+[2025-02-08 15:36:27] trace Found token in keyring
+[2025-02-08 15:36:27] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 15:37:28] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:37:28] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:38:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:39:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:39:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:40:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:40:28] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:40:28] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:41:28] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:41:29] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:42:29] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:42:32] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:42:32] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:43:32] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:43:37] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:44:37] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:44:47] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 15:44:47] debug [russh::client] drop session
+[2025-02-08 15:44:47] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 15:44:47] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 15:44:52] debug [russh::client] drop handle
+[2025-02-08 15:44:52] debug Starting tunnel to server...
+[2025-02-08 15:44:52] trace Found token in keyring
+[2025-02-08 15:44:52] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 15:44:54] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 15:45:03] trace Successfully refreshed access token
+[2025-02-08 15:45:03] trace Found token in keyring
+[2025-02-08 15:45:05] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 15:45:05] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 15:45:05] debug [russh::ssh_read] read 39
+[2025-02-08 15:45:05] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 15:45:05] debug [russh::client] writing 352 bytes
+[2025-02-08 15:45:05] debug [russh::ssh_read] id 39 39
+[2025-02-08 15:45:05] debug [russh::client::kex] extending []
+[2025-02-08 15:45:05] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 15:45:05] debug [russh::client::kex] write = []
+[2025-02-08 15:45:05] debug [russh::client::kex] i0 = 342
+[2025-02-08 15:45:05] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e6c0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44ff70, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c725e30, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fbcb0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 15:45:05] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 15:46:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:46:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:47:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:48:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:48:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:49:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:50:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:50:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:51:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:51:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:51:12] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:52:12] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:52:13] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:53:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:54:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:54:11] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:55:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:56:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:56:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:57:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:58:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:58:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:59:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 15:59:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 15:59:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:00:06] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:00:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:01:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:02:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:02:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:03:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:04:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:04:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:05:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:06:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:06:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:07:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:07:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:07:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:08:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:08:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:09:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:10:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:10:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:11:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:12:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:12:06] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:13:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:14:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:14:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:15:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:16:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:16:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:17:05] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:18:05] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:18:15] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 16:18:15] debug [russh::client] drop session
+[2025-02-08 16:18:15] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 16:18:15] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 16:18:20] debug [russh::client] drop handle
+[2025-02-08 16:18:20] debug Starting tunnel to server...
+[2025-02-08 16:18:20] trace Found token in keyring
+[2025-02-08 16:18:20] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 16:18:23] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 16:18:25] trace Successfully refreshed access token
+[2025-02-08 16:18:25] trace Found token in keyring
+[2025-02-08 16:18:27] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 16:18:27] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 16:18:27] debug [russh::ssh_read] read 39
+[2025-02-08 16:18:27] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 16:18:27] debug [russh::client] writing 352 bytes
+[2025-02-08 16:18:27] debug [russh::ssh_read] id 39 39
+[2025-02-08 16:18:27] debug [russh::client::kex] extending []
+[2025-02-08 16:18:27] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 16:18:27] debug [russh::client::kex] write = []
+[2025-02-08 16:18:27] debug [russh::client::kex] i0 = 342
+[2025-02-08 16:18:27] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f260, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44ff20, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c725c20, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3faea0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 16:18:27] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 16:19:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:19:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:20:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:21:26] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:21:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:22:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:23:26] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:23:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:24:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:24:33] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:24:33] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:25:33] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:25:33] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:26:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:27:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:27:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:28:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:29:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 16:29:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 16:30:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 19:31:24] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 19:31:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 19:31:24] warn error refreshing token: WrappedError(WrappedError { message: "error requesting https://api.github.com/user", original: "error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)" })
+[2025-02-08 20:40:02] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 20:40:02] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:40:02] debug [russh::client] drop session
+[2025-02-08 20:40:02] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 20:40:02] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 20:40:07] debug [russh::client] drop handle
+[2025-02-08 20:40:07] debug Starting tunnel to server...
+[2025-02-08 20:40:07] trace Found token in keyring
+[2025-02-08 20:40:07] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:40:07] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:40:07] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:40:07] trace Successfully refreshed access token
+[2025-02-08 20:40:07] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:40:17] debug Starting tunnel to server...
+[2025-02-08 20:40:17] trace Found token in keyring
+[2025-02-08 20:40:17] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:40:30] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:40:30] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:40:42] trace Successfully refreshed access token
+[2025-02-08 20:40:42] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:40:57] debug Starting tunnel to server...
+[2025-02-08 20:40:57] trace Found token in keyring
+[2025-02-08 20:40:57] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:40:57] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:40:57] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:40:57] trace Successfully refreshed access token
+[2025-02-08 20:40:57] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:41:17] debug Starting tunnel to server...
+[2025-02-08 20:41:17] trace Found token in keyring
+[2025-02-08 20:41:17] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:41:17] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:41:17] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:41:17] trace Successfully refreshed access token
+[2025-02-08 20:41:17] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:41:42] debug Starting tunnel to server...
+[2025-02-08 20:41:42] trace Found token in keyring
+[2025-02-08 20:41:42] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:41:43] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:41:48] trace Successfully refreshed access token
+[2025-02-08 20:41:48] trace Found token in keyring
+[2025-02-08 20:41:48] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:41:54] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 20:41:54] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 20:41:54] debug [russh::ssh_read] read 39
+[2025-02-08 20:41:54] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 20:41:54] debug [russh::client] writing 352 bytes
+[2025-02-08 20:41:54] debug [russh::ssh_read] id 39 39
+[2025-02-08 20:41:54] debug [russh::client::kex] extending []
+[2025-02-08 20:41:54] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 20:41:54] debug [russh::client::kex] write = []
+[2025-02-08 20:41:54] debug [russh::client::kex] i0 = 342
+[2025-02-08 20:41:54] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41d8e0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44fcf0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c725e30, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3f8500, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 20:41:54] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 20:41:54] trace token was successfully refreshed in keepalive
+[2025-02-08 20:42:54] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:43:04] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 20:43:04] debug [russh::client] drop session
+[2025-02-08 20:43:04] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 20:43:04] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 20:43:09] debug [russh::client] drop handle
+[2025-02-08 20:43:09] debug Starting tunnel to server...
+[2025-02-08 20:43:09] trace Found token in keyring
+[2025-02-08 20:43:29] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): connection error: Se ha forzado la interrupción de una conexión existente por el host remoto. (os error 10054)
+[2025-02-08 20:43:29] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:43:29] trace Successfully refreshed access token
+[2025-02-08 20:43:29] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:43:39] debug Starting tunnel to server...
+[2025-02-08 20:43:39] trace Found token in keyring
+[2025-02-08 20:43:39] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:43:39] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:43:39] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:43:39] trace Successfully refreshed access token
+[2025-02-08 20:43:39] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:43:54] debug Starting tunnel to server...
+[2025-02-08 20:43:54] trace Found token in keyring
+[2025-02-08 20:43:54] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:43:54] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:43:54] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:43:54] trace Successfully refreshed access token
+[2025-02-08 20:43:54] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:44:14] debug Starting tunnel to server...
+[2025-02-08 20:44:14] trace Found token in keyring
+[2025-02-08 20:44:14] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:44:14] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:44:14] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:44:14] trace Successfully refreshed access token
+[2025-02-08 20:44:14] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:44:39] debug Starting tunnel to server...
+[2025-02-08 20:44:39] trace Found token in keyring
+[2025-02-08 20:44:39] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:44:39] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:44:39] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:44:39] trace Successfully refreshed access token
+[2025-02-08 20:44:39] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:45:09] debug Starting tunnel to server...
+[2025-02-08 20:45:09] trace Found token in keyring
+[2025-02-08 20:45:09] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:45:09] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:45:09] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:45:09] trace Successfully refreshed access token
+[2025-02-08 20:45:09] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 20:45:44] debug Starting tunnel to server...
+[2025-02-08 20:45:44] trace Found token in keyring
+[2025-02-08 20:45:44] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 20:45:44] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 20:45:46] trace Successfully refreshed access token
+[2025-02-08 20:45:46] trace Found token in keyring
+[2025-02-08 20:45:47] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 20:45:47] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 20:45:47] debug [russh::ssh_read] read 39
+[2025-02-08 20:45:47] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 20:45:47] debug [russh::client] writing 352 bytes
+[2025-02-08 20:45:47] debug [russh::ssh_read] id 39 39
+[2025-02-08 20:45:47] debug [russh::client::kex] extending []
+[2025-02-08 20:45:47] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 20:45:47] debug [russh::client::kex] write = []
+[2025-02-08 20:45:47] debug [russh::client::kex] i0 = 342
+[2025-02-08 20:45:47] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41eba0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44f9d0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493f90, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fa510, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 20:45:47] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 20:46:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:46:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:47:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:48:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:48:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:49:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:50:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:50:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:51:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:52:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:52:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:53:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:54:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:54:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:55:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:55:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:55:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:56:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:56:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:57:48] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:57:49] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:57:49] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:58:49] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 20:58:49] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 20:59:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:00:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:00:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:01:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:01:50] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:01:50] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:02:50] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:02:51] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:03:51] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:03:52] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:03:52] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:04:52] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:04:52] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:05:49] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:06:49] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:06:49] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:07:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:08:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:08:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:09:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:10:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:10:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:11:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:12:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:12:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:13:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:13:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:13:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:14:48] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:14:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:15:49] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:15:59] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 21:15:59] debug [russh::client] drop session
+[2025-02-08 21:15:59] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 21:15:59] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 21:16:04] debug [russh::client] drop handle
+[2025-02-08 21:16:04] debug Starting tunnel to server...
+[2025-02-08 21:16:04] trace Found token in keyring
+[2025-02-08 21:16:04] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:16:07] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:16:24] trace Successfully refreshed access token
+[2025-02-08 21:16:24] trace Found token in keyring
+[2025-02-08 21:16:29] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 21:16:29] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 21:16:29] debug [russh::ssh_read] read 39
+[2025-02-08 21:16:29] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 21:16:29] debug [russh::client] writing 352 bytes
+[2025-02-08 21:16:29] debug [russh::ssh_read] id 39 39
+[2025-02-08 21:16:29] debug [russh::client::kex] extending []
+[2025-02-08 21:16:29] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 21:16:29] debug [russh::client::kex] write = []
+[2025-02-08 21:16:29] debug [russh::client::kex] i0 = 342
+[2025-02-08 21:16:29] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f650, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44f9d0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493960, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fb4d0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 21:16:29] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 21:17:29] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:17:30] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:18:29] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:19:29] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:19:32] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:20:32] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:20:42] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 21:20:42] debug [russh::client] drop session
+[2025-02-08 21:20:42] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 21:20:42] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 21:20:47] debug [russh::client] drop handle
+[2025-02-08 21:20:47] debug Starting tunnel to server...
+[2025-02-08 21:20:47] trace Found token in keyring
+[2025-02-08 21:20:47] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:20:58] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:20:58] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:21:09] trace Successfully refreshed access token
+[2025-02-08 21:21:09] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:19] debug Starting tunnel to server...
+[2025-02-08 21:21:19] trace Found token in keyring
+[2025-02-08 21:21:19] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:21:19] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:19] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:21:19] trace Successfully refreshed access token
+[2025-02-08 21:21:19] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:34] debug Starting tunnel to server...
+[2025-02-08 21:21:34] trace Found token in keyring
+[2025-02-08 21:21:34] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:21:34] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:34] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:21:34] trace Successfully refreshed access token
+[2025-02-08 21:21:34] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:54] debug Starting tunnel to server...
+[2025-02-08 21:21:54] trace Found token in keyring
+[2025-02-08 21:21:54] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:21:54] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:21:54] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:21:54] trace Successfully refreshed access token
+[2025-02-08 21:21:54] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 21:22:19] debug Starting tunnel to server...
+[2025-02-08 21:22:19] trace Found token in keyring
+[2025-02-08 21:22:19] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:22:20] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 21:22:21] trace Successfully refreshed access token
+[2025-02-08 21:22:21] trace Found token in keyring
+[2025-02-08 21:22:21] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 21:22:21] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 21:22:21] debug [russh::ssh_read] read 39
+[2025-02-08 21:22:21] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 21:22:21] debug [russh::client] writing 352 bytes
+[2025-02-08 21:22:21] debug [russh::ssh_read] id 39 39
+[2025-02-08 21:22:21] debug [russh::client::kex] extending []
+[2025-02-08 21:22:21] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 21:22:21] debug [russh::client::kex] write = []
+[2025-02-08 21:22:21] debug [russh::client::kex] i0 = 342
+[2025-02-08 21:22:21] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e9f0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44fca0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e4943b0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fabd0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 21:22:21] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 21:23:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:23:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:24:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:25:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:25:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:26:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:27:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:27:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:28:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:29:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:29:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:30:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:31:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:31:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:32:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:32:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:32:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:33:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:33:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:34:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:35:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:35:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:36:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:37:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:37:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:38:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:38:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:38:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:39:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:39:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:40:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:40:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:40:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:41:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:41:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:41:55] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 21:41:56] trace token was successfully refreshed in keepalive
+[2025-02-08 21:42:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:43:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:43:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:44:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:44:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:44:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:45:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:45:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:46:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:47:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:47:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:48:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:49:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:49:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:50:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:51:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:51:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:52:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:53:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:53:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:54:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:55:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:55:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:56:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:56:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:56:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:57:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:57:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:58:23] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:58:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:58:27] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 21:59:27] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 21:59:28] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:00:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:01:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:01:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:02:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:03:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:03:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:04:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:05:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:05:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:06:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:07:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:07:30] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:08:30] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:08:34] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:08:34] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:09:34] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:09:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:10:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:11:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:11:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:12:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:13:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:13:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:14:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:15:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:15:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:16:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:16:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:16:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:17:23] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:17:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:18:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:19:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:19:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:20:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:20:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:20:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:21:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:21:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:22:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:23:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:23:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:24:22] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:25:22] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:25:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:26:23] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:26:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:26:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:27:23] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:27:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:28:23] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:29:23] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:29:33] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 22:29:33] debug [russh::client] drop session
+[2025-02-08 22:29:33] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 22:29:33] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 22:29:38] debug [russh::client] drop handle
+[2025-02-08 22:29:38] debug Starting tunnel to server...
+[2025-02-08 22:29:38] trace Found token in keyring
+[2025-02-08 22:29:38] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:29:39] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:29:41] trace Successfully refreshed access token
+[2025-02-08 22:29:41] trace Found token in keyring
+[2025-02-08 22:29:43] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 22:29:43] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 22:29:43] debug [russh::ssh_read] read 39
+[2025-02-08 22:29:43] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 22:29:43] debug [russh::client] writing 352 bytes
+[2025-02-08 22:29:43] debug [russh::ssh_read] id 39 39
+[2025-02-08 22:29:53] debug [russh::client::kex] extending []
+[2025-02-08 22:29:53] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 22:29:53] debug [russh::client::kex] write = []
+[2025-02-08 22:29:53] debug [russh::client::kex] i0 = 342
+[2025-02-08 22:29:53] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f620, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712c71d080, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493f90, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fb3b0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 22:29:53] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 22:30:53] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:30:53] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:31:43] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:32:43] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:32:53] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 22:32:53] debug [russh::client] drop session
+[2025-02-08 22:32:53] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 22:32:53] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 22:32:58] debug [russh::client] drop handle
+[2025-02-08 22:32:58] debug Starting tunnel to server...
+[2025-02-08 22:32:58] trace Found token in keyring
+[2025-02-08 22:32:58] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:33:09] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:33:09] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:33:11] trace Successfully refreshed access token
+[2025-02-08 22:33:11] trace Found token in keyring
+[2025-02-08 22:33:11] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:33:13] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 22:33:13] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 22:33:13] debug [russh::ssh_read] read 39
+[2025-02-08 22:33:13] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 22:33:13] debug [russh::client] writing 352 bytes
+[2025-02-08 22:33:13] debug [russh::ssh_read] id 39 39
+[2025-02-08 22:33:14] debug [russh::client::kex] extending []
+[2025-02-08 22:33:14] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 22:33:14] debug [russh::client::kex] write = []
+[2025-02-08 22:33:14] debug [russh::client::kex] i0 = 342
+[2025-02-08 22:33:14] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f3e0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e4504c0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e4941a0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fb9e0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 22:33:14] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 22:34:14] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:34:14] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:35:13] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:36:13] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:36:13] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:37:13] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:37:16] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:37:16] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:38:16] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:38:16] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:39:14] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:40:14] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:40:14] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:41:14] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:41:24] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 22:41:24] debug [russh::client] drop session
+[2025-02-08 22:41:24] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 22:41:24] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 22:41:29] debug [russh::client] drop handle
+[2025-02-08 22:41:29] debug Starting tunnel to server...
+[2025-02-08 22:41:29] trace Found token in keyring
+[2025-02-08 22:41:29] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:41:29] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:41:29] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:41:29] trace Successfully refreshed access token
+[2025-02-08 22:41:29] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:41:39] debug Starting tunnel to server...
+[2025-02-08 22:41:39] trace Found token in keyring
+[2025-02-08 22:41:39] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:41:50] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:41:50] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:41:50] trace Successfully refreshed access token
+[2025-02-08 22:41:50] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:42:05] debug Starting tunnel to server...
+[2025-02-08 22:42:05] trace Found token in keyring
+[2025-02-08 22:42:05] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:42:07] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:42:08] trace Successfully refreshed access token
+[2025-02-08 22:42:08] trace Found token in keyring
+[2025-02-08 22:42:09] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 22:42:09] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 22:42:09] debug [russh::ssh_read] read 39
+[2025-02-08 22:42:09] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 22:42:09] debug [russh::client] writing 352 bytes
+[2025-02-08 22:42:09] debug [russh::ssh_read] id 39 39
+[2025-02-08 22:42:09] debug [russh::client::kex] extending []
+[2025-02-08 22:42:09] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 22:42:09] debug [russh::client::kex] write = []
+[2025-02-08 22:42:09] debug [russh::client::kex] i0 = 342
+[2025-02-08 22:42:09] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712c6ffb80, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712c71dc60, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493d80, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fa510, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 22:42:09] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 22:42:10] trace token was successfully refreshed in keepalive
+[2025-02-08 22:43:09] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:43:09] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:44:09] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:45:09] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:45:19] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 22:45:19] debug [russh::client] drop session
+[2025-02-08 22:45:19] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 22:45:19] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 22:45:24] debug [russh::client] drop handle
+[2025-02-08 22:45:24] debug Starting tunnel to server...
+[2025-02-08 22:45:24] trace Found token in keyring
+[2025-02-08 22:45:24] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:45:35] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:45:35] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:45:35] trace Successfully refreshed access token
+[2025-02-08 22:45:35] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:45:45] debug Starting tunnel to server...
+[2025-02-08 22:45:45] trace Found token in keyring
+[2025-02-08 22:45:45] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:45:56] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:45:56] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:45:56] trace Successfully refreshed access token
+[2025-02-08 22:45:56] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:11] debug Starting tunnel to server...
+[2025-02-08 22:46:11] trace Found token in keyring
+[2025-02-08 22:46:11] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:46:11] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:11] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:46:11] trace Successfully refreshed access token
+[2025-02-08 22:46:11] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:31] debug Starting tunnel to server...
+[2025-02-08 22:46:31] trace Found token in keyring
+[2025-02-08 22:46:31] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:46:31] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:31] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:46:31] trace Successfully refreshed access token
+[2025-02-08 22:46:31] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:56] debug Starting tunnel to server...
+[2025-02-08 22:46:56] trace Found token in keyring
+[2025-02-08 22:46:56] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:46:56] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:46:56] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:46:56] trace Successfully refreshed access token
+[2025-02-08 22:46:56] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:47:26] debug Starting tunnel to server...
+[2025-02-08 22:47:26] trace Found token in keyring
+[2025-02-08 22:47:26] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:47:37] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:47:37] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:47:37] trace Successfully refreshed access token
+[2025-02-08 22:47:37] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:48:12] debug Starting tunnel to server...
+[2025-02-08 22:48:12] trace Found token in keyring
+[2025-02-08 22:48:12] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:48:12] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:48:12] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:48:12] trace Successfully refreshed access token
+[2025-02-08 22:48:12] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:48:52] debug Starting tunnel to server...
+[2025-02-08 22:48:52] trace Found token in keyring
+[2025-02-08 22:48:52] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:48:52] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:48:52] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:48:52] trace Successfully refreshed access token
+[2025-02-08 22:48:52] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 22:49:37] debug Starting tunnel to server...
+[2025-02-08 22:49:37] trace Found token in keyring
+[2025-02-08 22:49:37] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 22:49:43] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 22:49:44] trace Successfully refreshed access token
+[2025-02-08 22:49:44] trace Found token in keyring
+[2025-02-08 22:49:45] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 22:49:45] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 22:49:45] debug [russh::ssh_read] read 39
+[2025-02-08 22:49:45] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 22:49:45] debug [russh::client] writing 352 bytes
+[2025-02-08 22:49:45] debug [russh::ssh_read] id 39 39
+[2025-02-08 22:49:45] debug [russh::client::kex] extending []
+[2025-02-08 22:49:45] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 22:49:45] debug [russh::client::kex] write = []
+[2025-02-08 22:49:45] debug [russh::client::kex] i0 = 342
+[2025-02-08 22:49:45] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e720, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e450600, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493960, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3facf0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 22:49:45] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 22:50:46] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:50:46] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:51:46] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:51:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:51:47] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:52:47] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:52:48] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:53:48] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:53:52] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:53:58] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:54:58] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:54:58] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:55:46] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:56:46] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:56:46] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:57:46] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:58:46] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:58:46] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 22:59:46] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 22:59:56] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 22:59:56] debug [russh::client] drop session
+[2025-02-08 22:59:56] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 22:59:56] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 23:00:01] debug [russh::client] drop handle
+[2025-02-08 23:00:01] debug Starting tunnel to server...
+[2025-02-08 23:00:01] trace Found token in keyring
+[2025-02-08 23:00:01] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 23:00:12] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 23:00:12] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 23:00:29] trace Successfully refreshed access token
+[2025-02-08 23:00:29] trace Found token in keyring
+[2025-02-08 23:00:29] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 23:01:05] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: unexpected EOF during handshake
+[2025-02-08 23:01:06] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 23:01:06] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 23:01:06] debug [russh::ssh_read] read 39
+[2025-02-08 23:01:06] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 23:01:06] debug [russh::client] writing 352 bytes
+[2025-02-08 23:01:06] debug [russh::ssh_read] id 39 39
+[2025-02-08 23:01:06] debug [russh::client::kex] extending []
+[2025-02-08 23:01:06] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 23:01:06] debug [russh::client::kex] write = []
+[2025-02-08 23:01:06] debug [russh::client::kex] i0 = 342
+[2025-02-08 23:01:06] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f080, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e450650, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e4943b0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fa990, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 23:01:06] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 23:02:07] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 23:02:11] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 23:42:56] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 23:42:56] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 23:42:56] warn error refreshing token: WrappedError(WrappedError { message: "error requesting https://api.github.com/user", original: "error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)" })
+[2025-02-08 23:43:06] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-08 23:43:06] debug [russh::client] drop session
+[2025-02-08 23:43:06] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-08 23:43:06] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-08 23:43:11] debug [russh::client] drop handle
+[2025-02-08 23:43:11] debug Starting tunnel to server...
+[2025-02-08 23:43:11] trace Found token in keyring
+[2025-02-08 23:43:11] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 23:43:11] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 23:43:11] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 23:43:11] trace Successfully refreshed access token
+[2025-02-08 23:43:11] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-08 23:43:21] debug Starting tunnel to server...
+[2025-02-08 23:43:21] trace Found token in keyring
+[2025-02-08 23:43:21] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-08 23:43:22] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-08 23:43:24] trace Successfully refreshed access token
+[2025-02-08 23:43:24] trace Found token in keyring
+[2025-02-08 23:43:25] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-08 23:43:25] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-08 23:43:25] debug [russh::ssh_read] read 39
+[2025-02-08 23:43:25] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-08 23:43:25] debug [russh::client] writing 352 bytes
+[2025-02-08 23:43:25] debug [russh::ssh_read] id 39 39
+[2025-02-08 23:43:25] debug [russh::client::kex] extending []
+[2025-02-08 23:43:25] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-08 23:43:25] debug [russh::client::kex] write = []
+[2025-02-08 23:43:25] debug [russh::client::kex] i0 = 342
+[2025-02-08 23:43:25] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712c7000c0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712c71ddf0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712e493d80, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3faab0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-08 23:43:25] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-08 23:43:25] trace token was successfully refreshed in keepalive
+[2025-02-08 23:44:25] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-08 23:44:25] debug [tunnels::connections::ws] received liveness pong
+[2025-02-08 23:45:25] debug [tunnels::connections::ws] received liveness pong
+[2025-02-09 02:46:17] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-09 02:46:17] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-09 02:46:17] warn error refreshing token: WrappedError(WrappedError { message: "error requesting https://api.github.com/user", original: "error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)" })
+[2025-02-10 11:38:05] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:38:05] warn error refreshing token: WrappedError(WrappedError { message: "error requesting https://api.github.com/user", original: "error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)" })
+[2025-02-10 11:38:05] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-10 11:38:05] debug [russh::client] drop session
+[2025-02-10 11:38:05] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 11:38:05] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-10 11:38:10] debug [russh::client] drop handle
+[2025-02-10 11:38:10] debug Starting tunnel to server...
+[2025-02-10 11:38:10] trace Found token in keyring
+[2025-02-10 11:38:10] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:38:10] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:10] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:38:10] trace Successfully refreshed access token
+[2025-02-10 11:38:10] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:20] debug Starting tunnel to server...
+[2025-02-10 11:38:20] trace Found token in keyring
+[2025-02-10 11:38:20] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:38:21] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:21] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:38:21] trace Successfully refreshed access token
+[2025-02-10 11:38:21] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:36] debug Starting tunnel to server...
+[2025-02-10 11:38:36] trace Found token in keyring
+[2025-02-10 11:38:36] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:38:36] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:36] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:38:36] trace Successfully refreshed access token
+[2025-02-10 11:38:36] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:56] debug Starting tunnel to server...
+[2025-02-10 11:38:56] trace Found token in keyring
+[2025-02-10 11:38:56] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:38:56] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:38:56] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:38:56] trace Successfully refreshed access token
+[2025-02-10 11:38:56] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:39:21] debug Starting tunnel to server...
+[2025-02-10 11:39:21] trace Found token in keyring
+[2025-02-10 11:39:21] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:39:22] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:39:22] trace Successfully refreshed access token
+[2025-02-10 11:39:22] trace Found token in keyring
+[2025-02-10 11:39:24] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-10 11:39:24] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-10 11:39:24] debug [russh::ssh_read] read 39
+[2025-02-10 11:39:24] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-10 11:39:24] debug [russh::client] writing 352 bytes
+[2025-02-10 11:39:24] debug [russh::ssh_read] id 39 39
+[2025-02-10 11:39:24] debug [russh::client::kex] extending []
+[2025-02-10 11:39:24] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-10 11:39:24] debug [russh::client::kex] write = []
+[2025-02-10 11:39:24] debug [russh::client::kex] i0 = 342
+[2025-02-10 11:39:24] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e750, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e44fde0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c72b0a0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fa900, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-10 11:39:24] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-10 11:39:24] trace token was successfully refreshed in keepalive
+[2025-02-10 11:40:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:40:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:41:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:42:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:42:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:43:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:44:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:44:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:45:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:45:34] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-10 11:45:34] debug [russh::client] drop session
+[2025-02-10 11:45:34] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 11:45:34] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-10 11:45:39] debug [russh::client] drop handle
+[2025-02-10 11:45:39] debug Starting tunnel to server...
+[2025-02-10 11:45:39] trace Found token in keyring
+[2025-02-10 11:45:39] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:45:51] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:45:51] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:46:13] trace Successfully refreshed access token
+[2025-02-10 11:46:13] trace Found token in keyring
+[2025-02-10 11:46:13] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:47:04] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-10 11:47:04] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-10 11:47:04] debug [russh::ssh_read] read 39
+[2025-02-10 11:47:04] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-10 11:47:04] debug [russh::client] writing 352 bytes
+[2025-02-10 11:47:04] debug [russh::ssh_read] id 39 39
+[2025-02-10 11:47:04] debug [russh::client::kex] extending []
+[2025-02-10 11:47:04] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-10 11:47:04] debug [russh::client::kex] write = []
+[2025-02-10 11:47:04] debug [russh::client::kex] i0 = 342
+[2025-02-10 11:47:04] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41f6e0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e4503d0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c72d1a0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fb950, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-10 11:47:04] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-10 11:48:09] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:48:19] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-10 11:48:19] debug [russh::client] drop session
+[2025-02-10 11:48:19] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 11:48:19] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-10 11:48:24] debug [russh::client] drop handle
+[2025-02-10 11:48:24] debug Starting tunnel to server...
+[2025-02-10 11:48:24] trace Found token in keyring
+[2025-02-10 11:48:24] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:48:35] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:48:35] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:48:46] trace Successfully refreshed access token
+[2025-02-10 11:48:46] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:48:56] debug Starting tunnel to server...
+[2025-02-10 11:48:56] trace Found token in keyring
+[2025-02-10 11:48:56] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:49:07] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 11:49:07] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:50:08] trace Successfully refreshed access token
+[2025-02-10 11:50:08] trace Found token in keyring
+[2025-02-10 11:50:08] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:50:16] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-10 11:50:16] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-10 11:50:16] debug [russh::ssh_read] read 39
+[2025-02-10 11:50:16] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-10 11:50:16] debug [russh::client] writing 352 bytes
+[2025-02-10 11:50:16] debug [russh::ssh_read] id 39 39
+[2025-02-10 11:50:16] debug [russh::client::kex] extending []
+[2025-02-10 11:50:16] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-10 11:50:16] debug [russh::client::kex] write = []
+[2025-02-10 11:50:16] debug [russh::client::kex] i0 = 342
+[2025-02-10 11:50:16] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e7b0, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e450650, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c72a650, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fb050, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-10 11:50:16] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-10 11:51:18] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:51:21] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:52:17] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:53:17] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:53:26] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:54:24] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 11:55:24] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 11:55:34] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-10 11:55:34] debug [russh::client] drop session
+[2025-02-10 11:55:34] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 11:55:34] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-10 11:55:39] debug [russh::client] drop handle
+[2025-02-10 11:55:39] debug Starting tunnel to server...
+[2025-02-10 11:55:39] trace Found token in keyring
+[2025-02-10 11:55:39] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:55:56] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: unexpected EOF during handshake
+[2025-02-10 11:55:56] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 11:57:17] trace Successfully refreshed access token
+[2025-02-10 11:57:17] trace Found token in keyring
+[2025-02-10 11:57:17] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:57:51] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): connection closed before message completed
+[2025-02-10 11:58:17] warn Error connecting to relay, will retry: error connecting to tunnel: websocket error: IO error: Host desconocido. (os error 11001)
+[2025-02-10 11:58:27] debug Starting tunnel to server...
+[2025-02-10 11:58:27] trace Found token in keyring
+[2025-02-10 11:58:27] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:58:50] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: unexpected EOF during handshake
+[2025-02-10 11:58:57] trace Successfully refreshed access token
+[2025-02-10 11:58:57] trace Found token in keyring
+[2025-02-10 11:58:57] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 11:59:31] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-10 11:59:31] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-10 11:59:31] debug [russh::ssh_read] read 39
+[2025-02-10 11:59:31] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-10 11:59:31] debug [russh::client] writing 352 bytes
+[2025-02-10 11:59:31] debug [russh::ssh_read] id 39 39
+[2025-02-10 11:59:31] debug [russh::client::kex] extending []
+[2025-02-10 11:59:31] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-10 11:59:31] debug [russh::client::kex] write = []
+[2025-02-10 11:59:31] debug [russh::client::kex] i0 = 342
+[2025-02-10 11:59:31] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712e41e540, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712e450600, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c72d7d0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fbdd0, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-10 11:59:31] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-10 12:00:39] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 12:00:49] info [tunnels::connections::ws] websocket pong timed out, closing
+[2025-02-10 12:00:49] debug [russh::client] drop session
+[2025-02-10 12:00:49] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 12:00:49] warn Tunnel exited unexpectedly but gracefully, reconnecting
+[2025-02-10 12:00:54] debug [russh::client] drop handle
+[2025-02-10 12:00:54] debug Starting tunnel to server...
+[2025-02-10 12:00:54] trace Found token in keyring
+[2025-02-10 12:00:54] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 12:01:37] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: unexpected EOF during handshake
+[2025-02-10 12:01:37] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 12:01:48] trace Successfully refreshed access token
+[2025-02-10 12:01:48] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 15:01:48] debug Starting tunnel to server...
+[2025-02-10 15:01:48] trace Found token in keyring
+[2025-02-10 15:01:48] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 15:01:48] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 15:01:48] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 15:01:48] trace Successfully refreshed access token
+[2025-02-10 15:01:48] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 17:58:08] debug Starting tunnel to server...
+[2025-02-10 17:58:08] trace Found token in keyring
+[2025-02-10 17:58:08] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 17:58:09] warn failed to check GitHub token: error sending request for url (https://api.github.com/user): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 17:58:09] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 17:58:09] trace Successfully refreshed access token
+[2025-02-10 17:58:09] warn Error refreshing access token, will retry: failed to lookup tunnel for host token: connection error: error sending request for url (https://use2.rel.tunnels.api.visualstudio.com/tunnels/amusing-horse-wsg97rs?tokenScopes=host&api-version=2023-09-27-preview): error trying to connect: dns error: Host desconocido. (os error 11001)
+[2025-02-10 17:58:29] debug Starting tunnel to server...
+[2025-02-10 17:58:29] trace Found token in keyring
+[2025-02-10 17:58:29] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 17:58:31] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 17:58:33] trace Successfully refreshed access token
+[2025-02-10 17:58:33] trace Found token in keyring
+[2025-02-10 17:58:35] debug [tungstenite::handshake::client] Client handshake done.
+[2025-02-10 17:58:35] debug [russh::ssh_read] read_ssh_id: reading
+[2025-02-10 17:58:35] debug [russh::ssh_read] read 39
+[2025-02-10 17:58:35] debug [russh::ssh_read] Ok("SSH-2.0-Microsoft.DevTunnels.Ssh_3.12\r\n")
+[2025-02-10 17:58:36] debug [russh::client] writing 352 bytes
+[2025-02-10 17:58:36] debug [russh::ssh_read] id 39 39
+[2025-02-10 17:58:36] debug [russh::client::kex] extending []
+[2025-02-10 17:58:36] debug [russh::client::kex] algo = Names { kex: Name("none"), key: Name("none"), cipher: Name("none"), client_mac: Name("none"), server_mac: Name("none"), server_compression: None, client_compression: None, ignore_guessed: false }
+[2025-02-10 17:58:36] debug [russh::client::kex] write = []
+[2025-02-10 17:58:36] debug [russh::client::kex] i0 = 342
+[2025-02-10 17:58:36] debug [russh::client::kex] moving to kexdhdone, exchange = Exchange { client_id: CryptoVec { p: 0x2712c700240, size: 20, capacity: 32 }, server_id: CryptoVec { p: 0x2712c71d8a0, size: 37, capacity: 64 }, client_kex_init: CryptoVec { p: 0x2712c72d5c0, size: 342, capacity: 512 }, server_kex_init: CryptoVec { p: 0x2712e3fbb90, size: 94, capacity: 128 }, client_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 }, server_ephemeral: CryptoVec { p: 0x1, size: 0, capacity: 0 } }
+[2025-02-10 17:58:36] debug [tunnels::connections::relay_tunnel_host] established host relay primary session
+[2025-02-10 17:58:37] trace token was successfully refreshed in keepalive
+[2025-02-10 17:59:37] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 17:59:38] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:00:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:01:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:01:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:02:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:02:36] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:02:36] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:03:36] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:03:36] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:04:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:05:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:05:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:06:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:07:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:07:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:08:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:09:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:09:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:10:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:11:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:11:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:12:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:12:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:12:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:13:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:13:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:14:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:15:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:15:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:16:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:17:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:17:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:18:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:19:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:19:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:20:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:21:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:21:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:22:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:22:36] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:22:36] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:23:36] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:23:37] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:24:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:25:35] debug [tunnels::connections::ws] sent liveness ping
+[2025-02-10 18:25:35] debug [tunnels::connections::ws] received liveness pong
+[2025-02-10 18:25:49] info closing tunnel and all clients after a shutdown request
+[2025-02-10 18:25:49] info closing tunnel and all clients after a shutdown request
+[2025-02-10 18:25:49] info Shutting down: RPC client requested shutdown
+[2025-02-10 18:25:49] trace Tunnel closing gracefully
+[2025-02-10 18:25:49] trace Found token in keyring
+[2025-02-10 18:25:49] debug [reqwest::connect] starting new connection: https://api.github.com/
+[2025-02-10 18:25:49] debug [russh::client] disconnected
+[2025-02-10 18:25:49] debug [russh::client] drop session
+[2025-02-10 18:25:49] debug [tunnels::connections::relay_tunnel_host] disconnected primary session after EOF
+[2025-02-10 18:25:49] debug [russh::client] drop handle
+[2025-02-10 18:25:49] trace Tunnel closed with result: Ok(())
+[2025-02-10 18:25:52] debug [reqwest::connect] starting new connection: https://use2.rel.tunnels.api.visualstudio.com/
+[2025-02-10 18:25:52] debug Tunnel shut down

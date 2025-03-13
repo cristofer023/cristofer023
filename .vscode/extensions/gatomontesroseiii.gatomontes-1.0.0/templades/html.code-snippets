@@ -1,0 +1,29 @@
+{
+    "Generate table structure ": {
+        "prefix": "table",
+        "body": [
+            "<table>",
+            "  <caption>$1</caption>",
+            "  <thead>",
+            "    <tr>",
+            "      $2",
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
+            "    $3",
+            "  </tbody>",
+            "  <tfoot>",
+            "    <tr>",
+            "      $4",
+            "    </tr>",
+            "  </tfoot>",
+            "</table>"
+        ],
+        "description": "Estructura completa de una tabla"
+    },
+    "Generate Login Structure ": {
+        "prefix": "login",
+        "body": ["<style> .login { height: 100vh; display: flex; justify-content: center; align-items: center; margin: auto; } .login__content { background-color: #fff; box-shadow: 0 0 10px 0 #41404071; border-radius: 20px; overflow: hidden; font-family: system-ui, 'Segoe UI'; display: grid; } .login__logo { background-color: rgb(127, 187, 255); padding: 20px; } .login__data-form { background-color: #fff; height: 100%; display: flex; flex-direction: column; display: grid; grid-template-rows: 4fr 1fr; } .login__data-info { display: flex; flex-direction: column; justify-content: space-evenly; .login__data-username, .login__data-password { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; gap: 20%; .login__data-label { width: 80%; font-size: 1.1em; font-weight: normal; } .login__data-txt, .login__data-pswrd { width: 80%; height: 30px; padding: 20px 20px; border: none; border-radius: 13px; outline: none; font-size: .95em; background-color: #dbdbdb48; &:focus { background-color: aliceblue; } } } } .login__options { display: flex; justify-content: space-evenly; align-items: center; .login__options-item { padding: 12px 20px; border-radius: 5px; border: none; font-family: system-ui, 'Segoe UI'; font-size: .85rem; width: 32%; background-color: #dbdbdb48; transition: background .2s; &:hover { background-color: aliceblue; } } } @media (width <=1100px) { .login__content { grid-template-rows: 2.5fr 4fr; width: 50%; height: 70%; } } @media (width > 1100px) { .login__content { grid-template-columns: 3.3fr 4fr; width: 55%; height: 65%; } } </style> <section class=\"login\"> <div class=\"login__content\"> <div class=\"login__logo\"> </div> <div class=\"login__data\"> <form action=\"\" class=\"login__data-form\"> <div class=\"login__data-info\"> <div class=\"login__data-username\"> <label for=\"login__data-username-txt\" class=\"login__data-label login__data-username-item\">Username:</label> <input type=\"text\" name=\"\" id=\"login__data-username-txt\" class=\"login__data-txt login__data-username-item\"> </div> <div class=\"login__data-password\"> <label for=\"login__data-pswrd-txt\" class=\"login__data-label login__data-pswrd-item\">Password:</label> <input type=\"pswrd\" name=\"\" id=\"login__data-pswrd-txt\" class=\"login__data-pswrd login__data-pswrd-item\"> </div> </div> <div class=\"login__options\"> <input type=\"submit\" value=\"Ingresar\" class=\"login__options-item\" id=\"login__options-submit\"> <input type=\"button\" value=\"Crear cuenta\" class=\"login__options-item\" id=\"login__options-create\"> </div> </form> </div> </div> </section>"],
+        "description": "Estructura completa de una tabla"
+    }
+}

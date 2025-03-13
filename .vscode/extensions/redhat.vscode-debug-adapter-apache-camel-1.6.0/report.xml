@@ -1,0 +1,68 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Should run commands with Maven Repository specified in settings" tests="4" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:06" time="1.052">
+    <testcase classname="Should run commands with Maven Repository specified in settings" name="Default upstream Camel Version in commands is not using Red Hat Maven Repository" time="0.361">
+    </testcase>
+    <testcase classname="Should run commands with Maven Repository specified in settings" name="Productized Camel version is using RH Maven Repository in generated &apos;Run with JBang&apos; task" time="0.123">
+    </testcase>
+    <testcase classname="Should run commands with Maven Repository specified in settings" name="Productized Camel version is using RH Maven Repository in generated &apos;Run and Debug with JBang&apos; task" time="0.07">
+    </testcase>
+    <testcase classname="Should run commands with Maven Repository specified in settings" name="Placeholder &apos;#repos&apos; is not used when Global Maven Repository is not set" time="0.116">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in tasks.json" tests="4" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:07" time="0.331">
+    <testcase classname="Should do completion in tasks.json" name="Completion for Start application with camel.debug profile" time="0.231">
+    </testcase>
+    <testcase classname="Should do completion in tasks.json" name="Completion for Start application with jbang" time="0.053">
+    </testcase>
+    <testcase classname="Should do completion in tasks.json" name="Completion for Build a native Camel Quarkus application" time="0.022">
+    </testcase>
+    <testcase classname="Should do completion in tasks.json" name="Completion for Start Camel native application" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should run commands with Camel version specified in settings" tests="4" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:07" time="0.286">
+    <testcase classname="Should run commands with Camel version specified in settings" name="Default Camel version is empty" time="0">
+    </testcase>
+    <testcase classname="Should run commands with Camel version specified in settings" name="Default Camel version in commands is same as Camel JBang CLI default version" time="0.043">
+    </testcase>
+    <testcase classname="Should run commands with Camel version specified in settings" name="Updated Camel version is correct in generated &apos;Run with JBang&apos; task" time="0.067">
+    </testcase>
+    <testcase classname="Should run commands with Camel version specified in settings" name="Updated Camel version is correct in generated &apos;Run and Debug with JBang&apos; task" time="0.059">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should run commands with Camel JBang version specified in settings" tests="3" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:08" time="0.261">
+    <testcase classname="Should run commands with Camel JBang version specified in settings" name="Default Camel JBang version is not empty" time="0">
+    </testcase>
+    <testcase classname="Should run commands with Camel JBang version specified in settings" name="Updated Camel JBang version is correct in generated &apos;Run with JBang&apos; task" time="0.067">
+    </testcase>
+    <testcase classname="Should run commands with Camel JBang version specified in settings" name="Updated Camel JBang version is correct in generated &apos;Run and Debug with JBang&apos; task" time="0.065">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should run commands with the extra launch parameter specified in settings" tests="5" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:08" time="0.296">
+    <testcase classname="Should run commands with the extra launch parameter specified in settings" name="Default extra launch parameter is not empty" time="0">
+    </testcase>
+    <testcase classname="Should run commands with the extra launch parameter specified in settings" name="Updated extra launch parameter is correct in generated &apos;Run with JBang&apos; task" time="0.053">
+    </testcase>
+    <testcase classname="Should run commands with the extra launch parameter specified in settings" name="Updated extra launch parameter is correct in generated &apos;Run and Debug with JBang&apos; task" time="0.054">
+    </testcase>
+    <testcase classname="Should run commands with the extra launch parameter specified in settings" name="Should skip &apos;*.xsl&apos; argument when there is none XSL file in workspace" time="0.036">
+    </testcase>
+    <testcase classname="Should run commands with the extra launch parameter specified in settings" name="Should add &apos;*.xsl&apos; argument when there is a XSL file in workspace" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="CodeLenses Test Camel Debug with JBang" tests="3" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:08" time="0.128">
+    <testcase classname="CodeLenses Test Camel Debug with JBang" name="Codelens provider returns correct CodeLens for YAML file" time="0.096">
+    </testcase>
+    <testcase classname="CodeLenses Test Camel Debug with JBang" name="Codelens provider returns correct CodeLens for XML file" time="0.014">
+    </testcase>
+    <testcase classname="CodeLenses Test Camel Debug with JBang" name="Codelens provider returns correct CodeLens for Java file" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="CodeLenses Test Camel Run with JBang" tests="3" errors="0" failures="0" skipped="0" timestamp="2025-01-22T14:08:08" time="0.017">
+    <testcase classname="CodeLenses Test Camel Run with JBang" name="Codelens provider returns correct CodeLens for YAML file" time="0.008">
+    </testcase>
+    <testcase classname="CodeLenses Test Camel Run with JBang" name="Codelens provider returns correct CodeLens for XML file" time="0.006">
+    </testcase>
+    <testcase classname="CodeLenses Test Camel Run with JBang" name="Codelens provider returns correct CodeLens for Java file" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
