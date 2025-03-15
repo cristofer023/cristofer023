@@ -30,10 +30,10 @@ body{
     color: rgb(255, 255, 255);
     text-decoration: solid;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 50px;
     font-family: "Poppins", serif;
     font-weight: 400;
-    animation: colores 6s infinite;
+    animation: colores 3s infinite;
 }
 
 @keyframes colores {
