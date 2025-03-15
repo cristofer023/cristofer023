@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animate on scroll</title>
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        width: 100%;
+        height: 100vh;
+        line-height: 80vh;
+        text-align: center;
+        display: block;
+        font-size: 60px;
+      }
+      .view {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .block {
+        height: 200px;
+        width: 300px;
+        margin: 50px;
+        border: 0.5mm solid black;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        position: relative;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+      }
+      .block:nth-child(1) {
+        background: rgb(232, 88, 67);
+      }
+      .block:nth-child(2) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(3) {
+        background: rgb(36, 217, 127);
+      }
+      .block:nth-child(4) {
+        background: rgb(157, 86, 247);
+        width: 700px;
+      }
+      .block:nth-child(5) {
+        background: rgb(250, 201, 82);
+      }
+      .block:nth-child(6) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(7) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(8) {
+        background: rgb(36, 217, 127);
+        width: 700px;
+      }
+      .block:nth-child(9) {
+        background: rgb(232, 88, 67);
+      }
+      .block:nth-child(10) {
+        background: rgb(250, 201, 82);
+        width: 700px;
+      }
+      .block:nth-child(11) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(12) {
+        background: rgb(36, 217, 127);
+      }
+      .block:nth-child(13) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(14) {
+        background: rgb(250, 201, 82);
+      }
+      .block:nth-child(15) {
+        background: rgb(232, 88, 67);
+      }
+      .block:nth-child(16) {
+        background: rgb(36, 217, 127);
+        width: 700px;
+      }
+      .block:nth-child(17) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(18) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(19) {
+        background: rgb(250, 201, 82);
+      }
+      .block:nth-child(20) {
+        background: rgb(232, 88, 67);
+        width: 700px;
+      }
+      @keyframes appear {
+        from {
+          opacity: 0;
+          clip-path: inset(100% 100% 0 0);
+        }
+        to {
+          opacity: 1;
+          clip-path: inset(0 0 0 0);
+        }
+      }
+      /* Estilo para el enlace que cubre todo el contenedor */
+      .block a.block-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        /* La imagen de fondo se ajusta y centra en el contenedor */
+        background-size: cover;
+        background-position: center;
+      }
+      /* Texto centrado en el medio del contenedor */
+      .block a.block-link span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animate On Scroll</h1>
+    <div class="view">
+      <!-- Contenedor 1 -->
+      <div class="block">
+        <a
+          href="juegos/Tower blocks/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/imagen.png');"
+        >
+          <span>Tower Blocks</span>
+        </a>
+      </div>
+      <!-- Contenedor 2 -->
+      <div class="block">
+        <a
+          href="juegos/ahorcado/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Captura\ de\ pantalla\ 2025-03-03\ 142454.png');"
+        >
+          <span>Ahorcado</span>
+        </a>
+      </div>
+      <!-- Contenedor 3 -->
+      <div class="block">
+        <a
+          href="juegos/Cruz_zero/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/tick_tack.jpg');"
+        >
+          <span>Tick Tack</span>
+        </a>
+      </div>
+      <!-- Contenedor 4 -->
+      <div class="block">
+        <a
+          href="juegos/hextris-gh-pages/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Hextris.png');"
+        >
+          <span>Hextris</span>
+        </a>
+      </div>
+      <!-- Contenedor 5 -->
+      <div class="block">
+        <a
+          href="juegos/coloron-game/dist/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Coloron.png');"
+        >
+          <span>Coloron Game</span>
+        </a>
+      </div>
+      <!-- Contenedor 6 -->
+      <div class="block">
+        <a
+          href="juegos/js-planet-defense-game/js-planet-defense-game/dist/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Planet\ Defense.png');"
+        >
+          <span>Planet Defense</span>
+        </a>
+      </div>
+      <!-- Contenedor 7 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/654321');"
+        >
+          <span>Contenedor 7</span>
+        </a>
+      </div>
+      <!-- Contenedor 8 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/abcdef');"
+        >
+          <span>Contenedor 8</span>
+        </a>
+      </div>
+      <!-- Contenedor 9 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/fedcba');"
+        >
+          <span>Contenedor 9</span>
+        </a>
+      </div>
+      <!-- Contenedor 10 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/112233');"
+        >
+          <span>Contenedor 10</span>
+        </a>
+      </div>
+      <!-- Contenedor 11 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/445566');"
+        >
+          <span>Contenedor 11</span>
+        </a>
+      </div>
+      <!-- Contenedor 12 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/778899');"
+        >
+          <span>Contenedor 12</span>
+        </a>
+      </div>
+      <!-- Contenedor 13 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/998877');"
+        >
+          <span>Contenedor 13</span>
+        </a>
+      </div>
+      <!-- Contenedor 14 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/556677');"
+        >
+          <span>Contenedor 14</span>
+        </a>
+      </div>
+      <!-- Contenedor 15 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/223344');"
+        >
+          <span>Contenedor 15</span>
+        </a>
+      </div>
+      <!-- Contenedor 16 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/556644');"
+        >
+          <span>Contenedor 16</span>
+        </a>
+      </div>
+      <!-- Contenedor 17 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/667788');"
+        >
+          <span>Contenedor 17</span>
+        </a>
+      </div>
+      <!-- Contenedor 18 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/8899aa');"
+        >
+          <span>Contenedor 18</span>
+        </a>
+      </div>
+      <!-- Contenedor 19 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/aabbcc');"
+        >
+          <span>Contenedor 19</span>
+        </a>
+      </div>
+      <!-- Contenedor 20 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/bbccdd');"
+        >
+          <span>Contenedor 20</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
