@@ -140,7 +140,7 @@ function start(level) {
   gameArea.innerHTML = "";
 
   player.start = true;
-  player.speed = 5 + (level - 1) * 2;
+  player.speed = 8 + (level - 1) * 2;
   player.score = 0;
 
   for (let x = 0; x < 10; x++) {

@@ -75,7 +75,7 @@
 }
 
 .start:hover {
-  background-color: orangered;
+  background-color: rgb(194, 0, 0);
   color: white;
   transform: scale(1.1);
 }
