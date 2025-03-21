@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <section>
+    <title>Animate on scroll</title>
+
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Galáxia com CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+    <div class="container">
+   <div class="space space-1"></div>
+   <div class="space space-2"></div>
+   <div class="space space-3"></div>
+   
+</div>
+
+<script src="js.js"></script>
+
+    <style>
+      @keyframes colores {
+    0%{ color: rgb(84, 84, 238);}
+    25%{color: rgb(88, 88, 219);}
+    50%{color: rgb(127, 143, 233);}
+    75%{color: rgb(173, 188, 230);}
+    100%{color : rgb(176, 194, 245);}
+}
+
+
+.menu {
+    padding: 10px 650px;
+}
+
+.menu ul {
+    list-style: none;
+    padding-top: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.chat{
+    padding: 40px;
+}
+
+.chat h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px;
+}
+
+.chat input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 460px){
+    .content_slider h2 {
+        font-size: 15pt !important;
+    }
+    .content_slider p {
+        font-size: 12pt !important;
+    }
+    #container-slider .arrowPrev, #container-slider .arrowNext{
+        font-size: 20pt;
+    }
+    #container-slider .arrowPrev{
+        left: 15px;
+    }
+    #container-slider .arrowNext{
+        right: 15px !important;
+    }
+    #slider{
+        height: 400px;
+        min-height: 400px;
+    }
+    #slider li .content_slider{
+        padding: 10px 35px;
+    }
+    .btnSlider{
+        padding: 10px 30px;
+        font-size: 10pt;
+    }
+
+}
+
+.cabezera{
+    background-color: rgb(30, 0, 68);
+    padding: 0;
+    max-width: auto;
+    margin: auto;
+    display: flex;
+    height: 500px;
+}
+.cabezera img{
+    width: 600px;
+    height: 600px;
+    justify-content: right;
+    object-fit: cover;
+    animation: moverImagen 2s infinite alternate;
+}
+
+  @keyframes moverEstrella {
+    0% {
+      left: 100%;
+      top: 20%;
+    }
+    100% {
+      left: -40px;
+      top: 80%;
+    }
+  }
+
+.cabezera h1{
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    padding-top: 130px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    animation: colores 6s infinite;
+}
+
+@keyframes colores {
+    0%{ color: rgb(84, 84, 238);}
+    25%{color: rgb(88, 88, 219);}
+    50%{color: rgb(127, 143, 233);}
+    75%{color: rgb(173, 188, 230);}
+    100%{color : rgb(176, 194, 245);}
+}
+      h1{
+        width: 100%;
+        height: 100vh;
+        line-height: 80vh;
+        text-align: center;
+        display: block;
+        font-size: 60px;
+		}
+
+    
+      .view {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .block {
+        height: 200px;
+        width: 310px;
+        margin: 50px;
+        border: 0.5mm solid black;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        position: relative;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+      }
+      .block:nth-child(1) {
+        background: rgb(232, 88, 67);      
+          width: 450px;
+          height: 260px;
+
+
+      }
+      .block:nth-child(2) {
+        background: rgb(26, 84, 207);
+        width: 450px;
+          height: 260px;
+      }
+      .block:nth-child(3) {
+        background: rgb(36, 217, 127);
+        width: 450px;
+        height: 260px;
+
+      }
+      .block:nth-child(4) {
+        background: rgb(157, 86, 247);
+        width: 500px;
+        height: 260px;
+
+      }
+      .block:nth-child(5) {
+        background: rgb(250, 201, 82);
+        width: 500px;
+        height: 260px;
+
+      }
+      .block:nth-child(6) {
+        background: rgb(26, 84, 207);
+        width: 500px;
+        height: 260px;
+
+      }
+      .block:nth-child(7) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(8) {
+        background: rgb(36, 217, 127);
+        width: 700px;
+      }
+      .block:nth-child(9) {
+        background: rgb(232, 88, 67);
+      }
+      .block:nth-child(10) {
+        background: rgb(250, 201, 82);
+        width: 700px;
+      }
+      .block:nth-child(11) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(12) {
+        background: rgb(36, 217, 127);
+      }
+      .block:nth-child(13) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(14) {
+        background: rgb(250, 201, 82);
+      }
+      .block:nth-child(15) {
+        background: rgb(232, 88, 67);
+      }
+      .block:nth-child(16) {
+        background: rgb(36, 217, 127);
+        width: 700px;
+      }
+      .block:nth-child(17) {
+        background: rgb(157, 86, 247);
+      }
+      .block:nth-child(18) {
+        background: rgb(26, 84, 207);
+      }
+      .block:nth-child(19) {
+        background: rgb(250, 201, 82);
+      }
+      .block:nth-child(20) {
+        background: rgb(232, 88, 67);
+        width: 700px;
+      }
+      @keyframes appear {
+        from {
+          opacity: 0;
+          clip-path: inset(100% 100% 0 0);
+        }
+        to {
+          opacity: 1;
+          clip-path: inset(0 0 0 0);
+        }
+      }
+        @keyframes cambiar{
+			0%{background-position: 0 50%;}
+			50%{background-position: 100% 50%;}
+			100%{background-position: 0 50%;}
+		}
+
+
+/*Fondo de pagina*/
+.container {
+    background-image: linear-gradient(#7813ba, #5d0653);
+    inset: 0;
+
+  }
+  
+  .space {
+    --size: 2px;
+    --space-layer: 
+      4vw 50vh 0 #fff,
+      18vw 88vh 0 #fff,
+      73vw 14vh 0 #fff;
+    
+    width: var(--size);
+    height: var(--size);
+    background: white;
+    box-shadow: var(--space-layer);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.75;
+  }
+  
+  .space {
+     animation: move var(--duration) linear infinite;
+  }
+  
+  @keyframes move {
+    from { transform: translateY(0); }
+    to { transform: translateY(-100vh); }
+  }
+
+      
+      /* Estilo para el enlace que cubre todo el contenedor */
+      .block a.block-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        /* La imagen de fondo se ajusta y centra en el contenedor */
+        background-size: cover;
+        background-position: center;
+      }
+      /* Texto centrado en el medio del contenedor */
+      .block a.block-link span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+      <header class="cabezera"> 
+          <img src="img/Captura de pantalla 2025-03-03 153145-Photoroom.png"">
+          <h1>Funiverse</h1>
+          <nav class="menu">
+              <ul>
+                  <li><a href="#about">AYUDA</a></li>
+                  <li><a href="#contacto">CONTACTANOS</a></li>
+              </ul>
+          </nav>
+      </header>
+    <h1>Animate On Scroll</h1>
+    <div class="view">
+      <!-- Contenedor 1 -->
+      <div class="block">
+        <a
+          href="juegos/Tower blocks/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/imagen.png');"
+        >
+          <span>Tower Blocks</span>
+        </a>
+      </div>
+      <!-- Contenedor 2 -->
+      <div class="block">
+        <a
+          href="juegos/ahorcado/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Captura\ de\ pantalla\ 2025-03-03\ 142454.png');"
+        >
+          <span>Ahorcado</span>
+        </a>
+      </div>
+      <!-- Contenedor 3 -->
+      <div class="block">
+        <a
+          href="juegos/Cruz_zero/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/tick_tack.jpg');"
+        >
+          <span>Tick Tack</span>
+        </a>
+      </div>
+      <!-- Contenedor 4 -->
+      <div class="block">
+        <a
+          href="juegos/hextris-gh-pages/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Hextris.png');"
+        >
+          <span>Hextris</span>
+        </a>
+      </div>
+      <!-- Contenedor 5 -->
+      <div class="block">
+        <a
+          href="juegos/coloron-game/dist/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Coloron.png');"
+        >
+          <span>Coloron Game</span>
+        </a>
+      </div>
+      <!-- Contenedor 6 -->
+      <div class="block">
+        <a
+          href="juegos/js-planet-defense-game/js-planet-defense-game/dist/index.html;"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Planet\ Defense.png');"
+        >
+          <span>Planet Defense</span>
+        </a>
+      </div>
+      <!-- Contenedor 7 -->
+      <div class="block">
+        <a
+          href="juegos/the-house-game-gh-pages/the-house-game-gh-pages/index.html"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('img/Screenshot\ 2025-03-18\ 110940.png');"
+        >
+          <span>Contenedor 7</span>
+        </a>
+      </div>
+      <!-- Contenedor 8 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/abcdef');"
+        >
+          <span>Contenedor 8</span>
+        </a>
+      </div>
+      <!-- Contenedor 9 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/fedcba');"
+        >
+          <span>Contenedor 9</span>
+        </a>
+      </div>
+      <!-- Contenedor 10 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/112233');"
+        >
+          <span>Contenedor 10</span>
+        </a>
+      </div>
+      <!-- Contenedor 11 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/445566');"
+        >
+          <span>Contenedor 11</span>
+        </a>
+      </div>
+      <!-- Contenedor 12 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/778899');"
+        >
+          <span>Contenedor 12</span>
+        </a>
+      </div>
+      <!-- Contenedor 13 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/998877');"
+        >
+          <span>Contenedor 13</span>
+        </a>
+      </div>
+      <!-- Contenedor 14 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/556677');"
+        >
+          <span>Contenedor 14</span>
+        </a>
+      </div>
+      <!-- Contenedor 15 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/223344');"
+        >
+          <span>Contenedor 15</span>
+        </a>
+      </div>
+      <!-- Contenedor 16 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/556644');"
+        >
+          <span>Contenedor 16</span>
+        </a>
+      </div>
+      <!-- Contenedor 17 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/667788');"
+        >
+          <span>Contenedor 17</span>
+        </a>
+      </div>
+      <!-- Contenedor 18 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/8899aa');"
+        >
+          <span>Contenedor 18</span>
+        </a>
+      </div>
+      <!-- Contenedor 19 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/aabbcc');"
+        >
+          <span>Contenedor 19</span>
+        </a>
+      </div>
+      <!-- Contenedor 20 -->
+      <div class="block">
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          class="block-link"
+          style="background-image: url('https://via.placeholder.com/300x200/bbccdd');"
+        >
+          <span>Contenedor 20</span>
+        </a>
+      </div>
+
+
+      </section>
+    </div>
+  </body>
+</html>
