@@ -14,11 +14,11 @@ box-sizing: border-box;
 }
 
 
-.menu {
+.Menu {
     padding: 10px 650px;
 }
 
-.menu ul {
+.Menu ul {
     list-style: none;
     padding-top: 50px;
     margin: 0;
@@ -26,17 +26,17 @@ box-sizing: border-box;
     justify-content: center;
 }
 
-.menu ul li {
+.Menu ul li {
     margin: 0 15px;
 }
 
-.menu ul li a {
+.Menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
-.menu ul li a:hover {
+.Menu ul li a:hover {
     text-decoration: underline;
 }
 
