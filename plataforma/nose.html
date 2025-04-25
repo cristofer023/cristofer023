@@ -63,16 +63,7 @@
   }
   
 
-  @keyframes moverEstrella {
-    0% {
-      left: 30%;
-      top: 30%;
-    }
-    100% {
-      left: -400px;
-      top: 90%;
-    }
-  }
+
   .estrella {
     position: absolute;
     top: -50px;
@@ -385,6 +376,114 @@
         <span>starship</span>
       </a>
     </div>
+  </div>
+    
+    
   <script src="js.js"></script>
+  
+  <section id="about" class="help-section">
+    <h2>Centro de Ayuda</h2>
+    <p class="intro">¿Tienes problemas? Encuentra aquí respuestas a las preguntas más comunes o contáctanos para más soporte.</p>
+  
+    <div class="faq">
+      <div class="faq-item">
+        <button class="faq-question">🔒 El juego no se abre</button>
+        <div class="faq-answer">
+          <p>Asegúrate de que tu navegador no esté bloqueando ventanas emergentes. También verifica tu conexión a internet.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">📱 No se adapta bien en mi móvil</button>
+        <div class="faq-answer">
+          <p>Funiverse es responsivo, pero algunos juegos no están optimizados para móviles. Te recomendamos rotar tu dispositivo o usar modo escritorio.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">❌ El juego se congela o no carga</button>
+        <div class="faq-answer">
+          <p>Intenta actualizar la página (F5). Si el problema persiste, borra la caché de tu navegador o prueba otro navegador.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">📨 ¿Cómo puedo contactar al equipo?</button>
+        <div class="faq-answer">
+          <p>Ve a la sección <a href="#contacto">Contáctanos</a> o envía un correo a: <strong>soporte@funiverse.com</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+    .help-section {
+      background-color: #0a1a2f;
+      color: white;
+      padding: 80px 30px;
+      text-align: center;
+    }
+    .help-section h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #4db8ff;
+    }
+    .help-section .intro {
+      font-size: 20px;
+      margin-bottom: 40px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .faq {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .faq-item {
+      margin-bottom: 20px;
+      border: 1px solid #4db8ff;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .faq-question {
+      width: 100%;
+      background-color: #102642;
+      color: white;
+      padding: 15px 20px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      outline: none;
+      transition: background 0.3s;
+    }
+    .faq-question:hover {
+      background-color: #14365d;
+    }
+    .faq-answer {
+      display: none;
+      padding: 15px 20px;
+      background-color: #132f4c;
+      font-size: 16px;
+      color: #e0e0e0;
+    }
+    .faq-answer p {
+      margin: 0;
+    }
+    .faq-answer a {
+      color: #4db8ff;
+      text-decoration: underline;
+    }
+  </style>
+  
+  <script>
+    // Interactividad para las preguntas frecuentes
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(button => {
+      button.addEventListener('click', () => {
+        const answer = button.nextElementSibling;
+        answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+      });
+    });
+  </script>
 </body>
 </html>
