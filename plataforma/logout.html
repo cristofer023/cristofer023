@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasta pronto</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .loader {
+      border: 10px solid #f3f3f3;
+      border-top: 10px solid #3498db;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .container {
+      font-size: 70px;
+      font-style: oblique;
+      font-weight: bold;
+
+    }
+
+    .container p {
+      font-size: 30px;
+      font-style: oblique;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row vh-100 justify-content-center align-items-center">
+      <div class="col-auto text-center">
+        <h1 class="mb-3">BIENVENIDO A FUNIVERSE...</h1>
+        <p class="mb-4">CARGANDO...</p>
+        <div class="loader mb-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Redirección después de 3 segundos -->
+  <script>
+    setTimeout(() => {
+      window.location.href = "nose.html";
+    }, 5000);
+  </script>
+  </body>
+</html>
