@@ -15,3 +15,29 @@ html {
 #canvas.playing {
     cursor: url('https://marclopezavila.github.io/planet-defense-game/img/aim_red.png') 17.5 17.5,auto !important;
 }
+
+.volver-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #5f2c82, #49a09d);
+    box-shadow: 0 0 15px rgba(100, 255, 255, 0.3), 0 0 30px rgba(138, 43, 226, 0.4);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  }
+  
+  .volver-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(145deg, #7f00ff, #00c6ff);
+    box-shadow: 0 0 25px rgba(100, 255, 255, 0.6), 0 0 40px rgba(138, 43, 226, 0.6);
+    text-shadow: 0 0 8px #ffffffaa;
+  }
+  

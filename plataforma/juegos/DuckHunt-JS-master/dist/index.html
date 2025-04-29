@@ -7,6 +7,8 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="description" content="An open source, web based, responsive implementation of Duck Hunt in canvas or webgl depending on your client.">
   <meta name="author" content="Matt Surabian">
+  <a href="/plataforma/logout-juegos.html" class="logout-button">VOLVER</a>
+
   <style>
     body {
       overflow:hidden;
@@ -14,6 +16,26 @@
       padding: 0;
       background-color: #000000;
     }
+    .logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.logout-button:hover {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
   </style>
   <script src="duckhunt.js"></script>
 </head>
