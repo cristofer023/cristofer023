@@ -22,6 +22,8 @@ h1 {
 
 h2 {
 	text-align: center;
+	text-decoration: underline;
+	padding: 10px;
 }
 
 p {
