@@ -143,25 +143,52 @@
     .menu ul {
       list-style: none;
       display: flex;
-      margin: 0;
-      padding: 0;
+      margin: 20px;
+      padding: 20px;
       
     }
     .menu ul li {
-      margin: 19px 15px;
+      margin: 19px 10px;
       margin-top: -450px;
       
     }
     .menu ul li a {
-      color: white;
+      color: rgb(206, 206, 206);
       text-decoration: none;
-      font-size: 24px;
+      font-size: 26px;
+      font-weight: bold ;
       
     }
     .menu ul li a:hover {
       text-decoration: underline;
     }
 
+ .btn-ayuda {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(45deg, #4db8ff, #1a73e8);
+    border: 2px solid #1a73e8;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-ayuda:hover {
+    background: linear-gradient(45deg, #1a73e8, #4db8ff);
+    color: #fff;
+    border-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .btn-ayuda:active {
+    transform: scale(1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
     /* --- Contenedores de juegos (.view) --- */
     .view {
       width: 100%;
@@ -289,7 +316,7 @@
 
     <nav class="menu">
       <ul>
-        <li><a href="#about">AYUDA</a></li>
+        <li><a href="#about" class="btn-ayuda"> ! AYUDA</a></li>
       </ul>
     </nav>
   </header>
