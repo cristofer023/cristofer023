@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Disfruta del Juego!</title>
+  <style>
+    /* Estilo general y animación del fondo */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #0f0f0f;
+      background-color:white ;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Pantalla de carga */
+    #loader-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      z-index: 9999;
+      background: transparent;
+    }
+
+    .loader-content {
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+
+    /* Barra de carga */
+    .loading-bar {
+      margin-top: 20px;
+      width: 400px;
+      height: 12px;
+      background: rgba(253, 0, 0, 0.2);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .progress {
+      width: 0%;
+      height: 100%;
+      background: #00ffcc;
+      border-radius: 20px;
+      animation: loadProgress 3s ease-out forwards;
+    }
+
+    @keyframes loadProgress {
+      0% { width: 0%; }
+      100% { width: 100%; }
+    }
+
+    /* Contenedor del juego */
+    #game-container {
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Pantalla de carga -->
+  <div id="loader-screen">
+    <div class="loader-content">
+      <h1>¡Disfruta del juego!</h1>
+      <p>Preparando tu aventura digital...</p>
+      <div class="loading-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor del juego (se muestra después) -->
+  <div id="game-container">
+    <iframe src="tu-juego.html"></iframe>
+  </div>
+
+  <script>
+    // Espera a que cargue todo, luego cambia a la vista del juego
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('loader-screen').style.display = 'none';
+        document.getElementById('game-container').style.display = 'block';
+      }, 3200); // Coincide con la duración de la animación de la barra
+    });
+  </script>
+
+</body>
+</html>
